@@ -47,6 +47,10 @@ config PLATFORM_ANDES_QILAI
 	select ANDES_SBI
 	default n
 
+config PLATFORM_ANLOGIC_DR1V90
+	bool "Anlogic DR1V90 support"
+	default n
+
 config PLATFORM_ESWIN_EIC770X
 	bool "ESWIN EIC770X support"
 	default n
